@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Kalyan M</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div id="page-transition"></div>
+<div id="scroll-progress"></div>
+<div id="ambient-glow"></div>
+<div id="cursor"></div>
+
+<nav class="site-nav">
+  <a href="index.html" class="nav-logo">Kalyan M</a>
+  <ul class="nav-links">
+    <li><a href="about.html">About</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ── Page hero (dark) ────────────────────── -->
+<div style="padding:140px 48px 72px; border-bottom:1px solid var(--border);">
+  <div class="hero-enter">
+    <p style="font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:20px;">04 — CONTACT</p>
+    <h1 style="font-size:clamp(40px,7vw,88px);font-weight:900;letter-spacing:-.035em;text-transform:uppercase;line-height:.95;">
+      Let's<br><em style="font-style:normal;color:var(--accent);">Talk</em>
+    </h1>
+  </div>
+</div>
+
+<!-- ── Contact body (inverted yellow) ───────── -->
+<section class="section contact-section">
+  <div class="section-header">
+    <span class="section-num">GET IN TOUCH</span>
+    <h2 class="section-title">Start a Conversation</h2>
+    <div class="section-rule"></div>
+  </div>
+
+  <div class="contact-grid">
+    <div>
+      <p class="contact-lead">
+        Who's bringing the next big idea? If it's you — let's talk. I'm always open to hearing about interesting projects, collaborations, and opportunities.
+      </p>
+      <a href="mailto:kmomidi21@gmail.com" class="contact-email">kmomidi21@gmail.com</a>
+    </div>
+
+    <form class="form" onsubmit="return false;">
+      <div class="form-row">
+        <label>Where should I send the proposal</label>
+        <input type="email" placeholder="your@email.com">
+      </div>
+      <div class="form-row">
+        <label>What are we building</label>
+        <input type="text" placeholder="Project title or idea">
+      </div>
+      <div class="form-row">
+        <label>Drop the details — I'm already thinking in code</label>
+        <textarea placeholder="Tell me about your project, timeline, and goals…"></textarea>
+      </div>
+      <button type="submit" class="btn btn-dark" style="align-self:flex-start;">Send Message →</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <span class="footer-name">Kalyan M</span>
+  <span class="footer-copy">© 2026 · Built with Resume Portfolio Generator</span>
+</footer>
+
+<script src="assets/script.js"></script>
+<script>
+window.GEMINI_KEY = "AIzaSyAydLE1biQfo5jIZC6y7I2Yn8em9iQ61dY";
+window.PORTFOLIO_DATA = {"name": "Kalyan M", "tagline": "AI Engineer & Full Stack Developer | Building Intelligent Systems", "about": "I am a results-oriented AI Engineer and Full Stack Developer with a Master's degree in Data Science from the University at Buffalo. My expertise lies in leveraging cutting-edge AI technologies, including Large Language Models (LLMs) and Retrieval Augmented Generation (RAG) pipelines, to build scalable and intelligent backend services and full-stack applications. I have a proven track record of enhancing system performance, improving data processing efficiency, and streamlining development workflows through robust CI/CD practices and microservices architecture.\n\nThroughout my experience at companies like Charter Communications, ProITbridge, and Cognizant, I have consistently delivered impactful solutions. I thrive on tackling complex technical challenges, from developing LLM-powered enterprise Q&A systems to optimizing asynchronous processing for inventory management and building fault-tolerant REST services. My passion for innovation drives me to explore and implement the latest advancements in AI and cloud-native technologies to create efficient, reliable, and user-centric applications.\n\nI am adept at translating business needs into technical solutions, utilizing a broad skill set encompassing Python, Java, SQL, React, and cloud platforms like AWS and Azure. My goal is to contribute to transformative projects that push the boundaries of what's possible with technology, always with a focus on delivering measurable business value and a seamless user experience.", "skills": ["Python", "Java", "SQL", "Reactjs", "LangChain", "OpenAI (GPT)", "Gemini", "RAG Pipelines", "Prompt Engineering", "Vector Databases (AstraDB)", "Microservices Architecture", "REST API Development", "CI/CD", "Jenkins", "GitHub Actions", "Docker", "Kubernetes", "AWS", "Azure", "Flask", "MongoDB", "PostgreSQL", "Agile Methodologies", "Full Stack Development"], "projects": [{"title": "Cloud-Native DevOps Pipeline for MERN Stack Application", "description": "Engineered a robust cloud-native DevOps pipeline for a MERN stack application, leveraging Terraform, Kubernetes, Jenkins, and Argo CD. This pipeline integrated comprehensive monitoring and observability tools to significantly boost deployment efficiency and reduce incident resolution time.", "tech": ["Terraform", "Kubernetes", "Jenkins", "Argo CD", "MERN Stack", "DevOps", "CI/CD"], "url": ""}, {"title": "AI-Powered Web Scraping & Intelligent Link Extraction", "description": "Developed an intelligent web scraping pipeline designed to efficiently crawl websites, extract critical links and content, and store structured knowledge. Utilized embeddings for advanced semantic search and retrieval capabilities, enabling deeper insights from web data.", "tech": ["Python", "AI", "Web Scraping", "Embeddings", "Semantic Search", "NLP"], "url": ""}, {"title": "Agentic AI System for Resume Screening and Interview Scheduling", "description": "Created an agentic AI workflow capable of parsing resumes, precisely matching candidate skills with job descriptions, and shortlisting top applicants. This system autonomously schedules interviews by leveraging LLM-driven decision logic for enhanced recruitment efficiency.", "tech": ["AI", "LLMs", "LangChain", "Python", "Resume Screening", "Interview Scheduling"], "url": ""}], "experience": [{"company": "Charter Communications", "role": "AI Engineer & Full Stack Developer", "dates": "April 2025 – Present", "bullets": ["Spearheaded the development of LLM-powered backend services for Spectrum GPT, utilizing OpenAI, LangChain, and RAG pipelines to enhance document understanding and enterprise Q&A capabilities.", "Engineered robust Java and Python microservices and significantly improved CI/CD pipelines with Jenkins and GitHub Actions, facilitating reliable cloud-native deployments."]}, {"company": "ProITbridge", "role": "AI Software Engineer Intern", "dates": "June 2024 – Dec 2024", "bullets": ["Developed a FastAPI service integrating vector retrieval and LLM pipelines to process unstructured documents, resulting in a 46% improvement in search relevance and a 52% reduction in manual lookup time.", "Built a Python AI pipeline for document classification and tagging using embedding search, which increased data processing efficiency by 37%."]}, {"company": "Cognizant Technology Solutions", "role": "Full Stack Software Engineer", "dates": "Aug 2021 – Aug 2023", "bullets": ["Developed Spring Boot microservices and React dashboards for shipment tracking across 20+ logistics hubs, achieving a 41% reduction in API latency.", "Implemented an asynchronous processing system using RabbitMQ for inventory workflows, enhancing system reliability and reducing failed transactions by 34%."]}, {"company": "Cognizant Technology Solutions", "role": "Software Engineer Intern", "dates": "March 2021 – Jun 2021", "bullets": ["Developed Angular-based UI modules integrated with REST APIs, leading to a 36% improvement in page load performance.", "Implemented Jenkins-based Docker pipelines for automated testing and deployment, reducing the release cycle time by 40%."]}, {"company": "Redington Limited", "role": "Java Backend Developer", "dates": "Feb 2020 – Feb 2021", "bullets": ["Built Spring Boot microservices handling over 50K daily orders, utilizing Kafka event streaming and Redis caching to improve throughput by 42%.", "Developed fault-tolerant REST services for payment gateway integration and PostgreSQL, decreasing reconciliation errors by 38%."]}], "readme_md": "# Kalyan M\n\nAI Engineer & Full Stack Developer | Building Intelligent Systems\n\n## About Me\n\nI am a results-oriented AI Engineer and Full Stack Developer with a Master's degree in Data Science from the University at Buffalo. My expertise lies in leveraging cutting-edge AI technologies, including Large Language Models (LLMs) and Retrieval Augmented Generation (RAG) pipelines, to build scalable and intelligent backend services and full-stack applications. I have a proven track record of enhancing system performance, improving data processing efficiency, and streamlining development workflows through robust CI/CD practices and microservices architecture.\n\nThroughout my experience at companies like Charter Communications, ProITbridge, and Cognizant, I have consistently delivered impactful solutions. I thrive on tackling complex technical challenges, from developing LLM-powered enterprise Q&A systems to optimizing asynchronous processing for inventory management and building fault-tolerant REST services. My passion for innovation drives me to explore and implement the latest advancements in AI and cloud-native technologies to create efficient, reliable, and user-centric applications.\n\nI am adept at translating business needs into technical solutions, utilizing a broad skill set encompassing Python, Java, SQL, React, and cloud platforms like AWS and Azure. My goal is to contribute to transformative projects that push the boundaries of what's possible with technology, always with a focus on delivering measurable business value and a seamless user experience.\n\n## Skills\n\n*   **Programming Languages:** SQL, Python, Java, C/C++, Java Script, R, Bash, HTML, CSS\n*   **AI & GenAI:** LangChain, OpenAI (GPT), Gemini, AstraDB (Vector DB), RAG Pipelines, Prompt Engineering\n*   **Tools & Frameworks:** Reactjs, Figma, Flask, Azure DevOps, REST APIs\n*   **Databases & Messaging:** MongoDB, PostgreSQL, MySQL, ADLS Gen2, Azure Databricks, RabbitMQ, GridFS\n*   **Cloud & DevOps:** AWS, Azure, Docker, Kubernetes, Terraform, Jenkins, GitHub Actions, Argo CD, Gitlab\n*   **Technical Constructs:** Software Development, Data Structures, Algorithms, Object-Oriented Programming (OOP), Object-Oriented Design (OOD), System Design, Microservices Architecture, Distributed Systems, REST API Development, Backend Development, Full Stack Development, Event Driven Architecture, Cloud Native Applications, Database Design, API Integration, Asynchronous Processing, CI/CD, Artificial Intelligence, Machine Learning, Deep Learning, Natural Language Processing (NLP), Large Language Models (LLMs), Retrieval Augmented Generation (RAG), Prompt Engineering, Vector Search, AI Workflow Automation\n\n## Projects\n\n### Cloud-Native DevOps Pipeline for MERN Stack Application\n\nEngineered a robust cloud-native DevOps pipeline for a MERN stack application, leveraging Terraform, Kubernetes, Jenkins, and Argo CD. This pipeline integrated comprehensive monitoring and observability tools to significantly boost deployment efficiency and reduce incident resolution time.\n\n### AI-Powered Web Scraping & Intelligent Link Extraction\n\nDeveloped an intelligent web scraping pipeline designed to efficiently crawl websites, extract critical links and content, and store structured knowledge. Utilized embeddings for advanced semantic search and retrieval capabilities, enabling deeper insights from web data.\n\n### Agentic AI System for Resume Screening and Interview Scheduling\n\nCreated an agentic AI workflow capable of parsing resumes, precisely matching candidate skills with job descriptions, and shortlisting top applicants. This system autonomously schedules interviews by leveraging LLM-driven decision logic for enhanced recruitment efficiency.\n\n## Experience\n\n### AI Engineer & Full Stack Developer | Charter Communications | April 2025 – Present\n\n*   Spearheaded the development of LLM-powered backend services for Spectrum GPT, utilizing OpenAI, LangChain, and RAG pipelines to enhance document understanding and enterprise Q&A capabilities.\n*   Engineered robust Java and Python microservices and significantly improved CI/CD pipelines with Jenkins and GitHub Actions, facilitating reliable cloud-native deployments.\n\n### AI Software Engineer Intern | ProITbridge | June 2024 – Dec 2024\n\n*   Developed a FastAPI service integrating vector retrieval and LLM pipelines to process unstructured documents, resulting in a 46% improvement in search relevance and a 52% reduction in manual lookup time.\n*   Built a Python AI pipeline for document classification and tagging using embedding search, which increased data processing efficiency by 37%.\n\n### Full Stack Software Engineer | Cognizant Technology Solutions | Aug 2021 – Aug 2023\n\n*   Developed Spring Boot microservices and React dashboards for shipment tracking across 20+ logistics hubs, achieving a 41% reduction in API latency.\n*   Implemented an asynchronous processing system using RabbitMQ for inventory workflows, enhancing system reliability and reducing failed transactions by 34%.\n\n### Software Engineer Intern | Cognizant Technology Solutions | March 2021 – Jun 2021\n\n*   Developed Angular-based UI modules integrated with REST APIs, leading to a 36% improvement in page load performance.\n*   Implemented Jenkins-based Docker pipelines for automated testing and deployment, reducing the release cycle time by 40%.\n\n### Java Backend Developer | Redington Limited | Feb 2020 – Feb 2021\n\n*   Built Spring Boot microservices handling over 50K daily orders, utilizing Kafka event streaming and Redis caching to improve throughput by 42%.\n*   Developed fault-tolerant REST services for payment gateway integration and PostgreSQL, decreasing reconciliation errors by 38%.\n\n## Contact\n\n*   **Email:** kmomidi21@gmail.com\n*   **LinkedIn:** [Your LinkedIn Profile URL]\n*   **Phone:** 716-986-2271", "linkedin_summary": "I am an AI Engineer and Full Stack Developer passionate about building intelligent, scalable applications that solve complex business challenges. With a Master's in Data Science and hands-on experience in LLMs, RAG pipelines, and microservices, I excel at transforming innovative ideas into robust, high-performing software. I'm driven by a desire to leverage cutting-edge technology to create impactful solutions and optimize development processes. Let's connect to explore how my skills can contribute to your next project!", "email": "kmomidi21@gmail.com"};
+</script>
+<script src="assets/chatbot.js"></script>
+</body>
+</html>
